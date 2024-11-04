@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background: #fbf1f1;
+    font-family:victor mono;
+    color: #535353;
+    display: block;
+}
+.main{
+    display: block;
+}
+#head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#head a{
+    color:#535353;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight:700;
+}
+#head a:hover{
+    color:#fd7e14;
+}
+.info{
+    width: 100%;
+    background-color:bisque;
+    border-radius: 20px;
+    height:500px;
+    padding: 10px;
+    color:#fd7e14;
+    font-weight: 700;
+}
+span{
+    color:black;
+}
+
+
