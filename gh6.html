@@ -1,77 +1,135 @@
-DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Food Courts Nearby</title>
     <style>
-        body{
-            margin:0;
+        
+        * {
+            margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
-        nav{
+
+       
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffeef8;
+            color: #333;
+        }
+
+       
+        nav {
             width: 100%;
-            height:7rem;
-            background-color:antiquewhite;
+            height: 7rem;
+            background-color: #ffccdf;
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            justify-content: center;
-            font-size: x-large;
+            padding: 0 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        nav h1{
-            font-family:Arial, Helvetica, sans-serif;
+
+        nav h1 {
+            font-size: 2.2rem;
+            color: #d26a98;
+            font-weight: bold;
         }
-        .store1{
-            width: 100%;
-            height:10rem;
-            background-color:rgb(182, 119, 241);
-           display: flex;
-           justify-content:center;
-           align-items: center;
-           font-family:Arial, Helvetica, sans-serif;
-           gap: 10px;
-           font-size: x-large;
-           color:white;
+
+        nav a {
+            color: #d26a98;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: color 0.3s;
         }
-        button{
-            border: 5px solid rgb(0, 0, 0);
+
+        nav a:hover {
+            color: #f292b9;
+        }
+
+    
+        .store-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            margin: 2rem auto;
+            max-width: 800px;
+            padding: 0 1rem;
+        }
+
+        
+        .store-card {
+            background-color: #ffdce5;
+            color: #c0638a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.8rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            font-weight: bold;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .store-card:nth-child(even) {
+            background-color: #ffeaf5;
+            color: #b74882;
+        }
+
+        .store-card:hover {
+            transform: translateY(-5px);
+            background-color: #f9cfe0;
+        }
+
+        
+        .store-card button {
+            padding: 0.6rem 1.5rem;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border: none;
             border-radius: 5px;
-            background-color:blueviolet;
+            background-color: #f292b9;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
         }
-        .store1 a{
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            font-size:large;
+
+        .store-card button:hover {
+            background-color: #e37aa3;
+        }
+
+       
+        .store-card a {
+            color: inherit;
             text-decoration: none;
-            color: white;
-        }
-        button:hover{
-            filter: grayscale(50%);
-        }
-        .store2{
-            width: 100%;
-            height:10rem;
-            background-color:antiquewhite;
-           display: flex;
-           justify-content:center;
-           align-items: center;
-           font-family:Arial, Helvetica, sans-serif;
-           gap: 10px;
-           font-size: x-large;
-           color:rgb(182, 119, 241);
-        }
-        .store2 a{
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            font-size:large;
-            text-decoration: none;
-            color: white;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <nav><h1>GH6</h1></nav>
-    <div class="store1">Near Fitness Center:<button><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJAdtK4I1hufNpX2w28WYcKR8IaR63-zsnA&s" target="_blank">Tap to visit</a></button></div>
-    <div class="store2">Beside Hostel:<button><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJAdtK4I1hufNpX2w28WYcKR8IaR63-zsnA&s" target="_blank">Tap to visit</a></button></div>
-    <div class="store1">Near Fitness Center:<button><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJAdtK4I1hufNpX2w28WYcKR8IaR63-zsnA&s" target="_blank">Tap to visit</a></button></div>
-    <div class="store2">Beside Hostel:<button><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJAdtK4I1hufNpX2w28WYcKR8IaR63-zsnA&s" target="_blank">Tap to visit</a></button></div>
+    <nav>
+        <h1>BH1: Food Courts Nearby</h1>
+        <a href="./project.html">Home</a>
+    </nav>
+    <div class="store-container">
+        <div class="store-card">
+            <div>Near Fitness Center</div>
+            <button><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJAdtK4I1hufNpX2w28WYcKR8IaR63-zsnA&s" target="_blank">Tap to Visit</a></button>
+        </div>
+        <div class="store-card">
+            <div>Beside Hostel</div>
+            <button><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJAdtK4I1hufNpX2w28WYcKR8IaR63-zsnA&s" target="_blank">Tap to Visit</a></button>
+        </div>
+        <div class="store-card">
+            <div>Near Fitness Center</div>
+            <button><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJAdtK4I1hufNpX2w28WYcKR8IaR63-zsnA&s" target="_blank">Tap to Visit</a></button>
+        </div>
+        <div class="store-card">
+            <div>Beside Hostel</div>
+            <button><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJAdtK4I1hufNpX2w28WYcKR8IaR63-zsnA&s" target="_blank">Tap to Visit</a></button>
+        </div>
+    </div>
 </body>
 </html>

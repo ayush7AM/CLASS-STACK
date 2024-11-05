@@ -1,44 +1,92 @@
-@import url("https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
-
-*{
-    box-sizing: border-box;
-}
-body {
-    background: #fbf1f1;
-    font-family:victor mono;
-    color: #535353;
-    display: block;
-}
-.main{
-    display: block;
-}
-#head{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-#head a{
-    color:#535353;
-    text-decoration: none;
-    font-size: x-large;
-    font-weight:700;
-}
-#head a:hover{
-    color:#fd7e14;
-}
-.info{
-    margin-top:50px;
-    width: 100%;
-    background-color:bisque;
-    border-radius: 20px;
-    height:500px;
-    padding: 10px;
-    color:#fd7e14;
-    font-weight: 700;
-}
-span{
-    color:black;
-}
-
-
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     background: #f4f6f8;
+     font-family: 'Victor Mono', monospace;
+     color: #343a40;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     padding: 20px;
+ }
+ 
+ .main {
+     max-width: 1200px;
+     width: 100%;
+ }
+ 
+ #head {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px 0;
+     border-bottom: 2px solid #fd7e14;
+ }
+ 
+ #head a {
+     color: #343a40;
+     text-decoration: none;
+     font-size: 1.8em;
+     font-weight: 700;
+     transition: color 0.3s ease;
+ }
+ 
+ #head a:hover {
+     color: #fd7e14;
+ }
+ 
+ .info {
+     margin-top: 30px;
+     width: 100%;
+     background-color: #ffe8d6;
+     border-radius: 15px;
+     height: 500px;
+     padding: 20px;
+     color: #fd7e14;
+     font-weight: 700;
+     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+     overflow: auto;
+ }
+ 
+ span {
+     color: #343a40;
+     font-weight: 600;
+ }
+ 
+ .info h2 {
+     font-size: 1.5em;
+     margin-bottom: 15px;
+     color: #fd7e14;
+ }
+ 
+ .info p {
+     line-height: 1.6;
+     font-size: 1.1em;
+     color: #535353;
+ }
+ 
+ button {
+     display: inline-block;
+     margin-top: 20px;
+     padding: 10px 20px;
+     background-color: #fd7e14;
+     color: #ffffff;
+     border: none;
+     border-radius: 5px;
+     font-size: 1em;
+     font-weight: 700;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+ 
+ button:hover {
+     background-color: #e85c00;
+ }
+ 

@@ -51,41 +51,12 @@ h1{
 .hostelb:hover{
     flex:4;
 }
-.bh1{
+.bh1, .bh2, .bh3, .bh4, .bh5, .bh6, .bh7{
 background-color:red;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: xx-large;   
 }
-.bh2{
-background-color:red;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: xx-large;   
-}
-.bh3{
-background-color:red;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: xx-large;   
-}
-.bh4{
-background-color:red;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: xx-large;   
-}
-.bh5{
-background-color:red;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: xx-large;   
-}
-.bh6{
-background-color:red;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: xx-large;   
-}
-.bh7{
-background-color:red;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: xx-large;   
-}
+
 #b{
  text-decoration: none;
  color:white;
@@ -100,7 +71,7 @@ font-size: xx-large;
     height: 300px;
     background-color:white;
 }
-.gh1{
+.gh1, .gh2, .gh3 ,.gh4, .gh5, .gh6, .gh7{
     background-color:white;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -119,40 +90,4 @@ font-size: xx-large;
 }
 .hostelg:hover{
     flex:4;
-}
-.gh2{
-    background-color:white;
-    color: blue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: xx-large;   
-}
-.gh3{
-    background-color:white;
-    color: blue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: xx-large;   
-}
-.gh4{
-    background-color:white;
-    color: blue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: xx-large;   
-}
-.gh5{
-    background-color:white;
-    color: blue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: xx-large;   
-}
-.gh6{
-    background-color:white;
-    color: blue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: xx-large;   
-}
-.gh7{
-    background-color:white;
-    color: blue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: xx-large;   
 }
